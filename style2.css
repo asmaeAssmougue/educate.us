@@ -1,0 +1,295 @@
+body {
+	/*background-image: url('BG2.png');*/
+	background-size:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: Arial, sans-serif;
+}
+.titre{
+	color: black;
+	font-weight: bold;
+}
+.photo_de_profil{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.user_name{
+	text-align:center;
+	color: white;
+	font-size: 12px;
+}
+.navbarForter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.formStyle{
+	width: 50%;
+	margin: auto;
+	margin-top: 50px;
+}
+.boutton {
+	border-radius: 50px;
+	padding: 5px 15px 5px 15px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border: 1px solid #015651;
+	background-color: #015651;
+	color: white;
+	width: 100%;
+}
+.boutton:hover{
+	color: #015651;
+	background-color:  #b4f5f1;
+	border:2px solid #015651;
+}
+.aside{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	margin: 1%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-image: url('BG3.png');
+	width:250px;
+
+}
+.navBar li{
+	display:block;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.navBar a{
+	color: white;
+}
+.navBar a:hover{
+	color: #b4f5f1;
+	text-decoration: none;
+}
+.navBarProfil li{
+	display:inline-block;
+	padding: 10px;
+	font-size: 15px;
+}
+.navBarProfil a{
+	color: gray;
+}
+.navBarProfil a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.navBarProfil li:hover{
+	background-color: #015651;
+}
+.activeLi a{
+	color: #015651;
+}
+.activeLi{
+	border-bottom: 2px solid  #015651;
+	text-decoration: none;
+}
+.navBarProfil{
+		margin-bottom: 10px; 
+		width: 100%;
+		
+}
+.page{
+	padding: 10px;
+	padding-top: 50px;
+    width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	float: right;
+
+}
+
+#photoProfil{
+	float: left;
+	position: relative;
+	z-index:1;
+}
+.tweet{
+	width: 90%;
+	float: right;
+	border:none;
+	outline-style: none; 
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 10px;
+}
+.aside_right{
+	position: fixed;
+	top: 0px;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	background-color: #efefef;
+	z-index: 99;
+	
+}
+.aside_right input{
+	border:none;
+	border-radius: 50px;
+	padding: 5px;
+	width: 70%;
+	margin: auto;
+	border-radius: 5px;
+	border: 1px solid;
+}
+#rechercher{
+	padding: 5px;
+	outline-style: none;
+	border: 2px solid white;
+	margin: 2px;
+	border-radius: 0;
+	width: 100%;
+	/* float: right; */
+	margin-right: 6px;
+	background-color: transparent;
+	border: none;
+	color: #727272 !important;
+}
+#rechercher:focus{
+	border:1px solid #09d3c6;
+	background-color: white;
+}
+.boutton_reaction{
+	border-radius: 50px;
+	padding: 5px 20px 5px 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border: none;
+	color: black;
+	width: auto;
+	outline-style: none; 
+}
+
+.boutton_reaction:hover{
+	background-color: white;
+	border:2px solid white;
+	cursor: pointer;
+}
+.text_tweet{
+	width: 100%;
+	margin: auto;
+	font-size: 16px;
+	padding: 1%;
+	border-bottom:1px solid gray;
+	color:black;
+	background-color:#dddddd;
+	border-radius:25px;
+}
+#liste_tweet , #liste_retweet , #liste_following , #liste_follower{
+	width: 100%;
+}
+.tweet:focus{
+	font-weight: bold;
+
+}
+.date_tweet{
+	font-weight: bold;
+	color: gray;
+	font-size: 10px;
+	padding: 2%;
+	clear: both;
+	float: right;
+}
+.containerForm{
+	margin-top:10% ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#hrefFollow {
+	position: absolute;
+	right: 150px;
+	top: 300px;
+}
+#hrefMsg{
+	position: absolute;
+	right: 350px;
+	top: 300px;
+}
+.navBarmsg {
+	list-style-type: none;
+}
+.navBarmsg button{
+	background-color: white;
+	border: none;
+}
+.navBarmsg button img:hover{
+	transform: scale(1.10);
+}
+.envoye{
+	background-color: pink;
+	float: right;
+	border: none;
+	border-radius: 50px;
+}
+.recue{
+	background-color: #aaaaaa;
+	float: left;
+	border: none;
+	border-radius: 50px;
+}
+.contactmsg {
+	width: 100%;
+
+}
+#barNotification{
+	position: absolute;
+	top: 20%;
+	left: 102%;
+	width: 306px;
+	min-height: 306px;
+	background-color:rgba(1,86,81,0.9);
+	z-index: 9999999999999999;
+	color: white;
+	padding: 9px;
+	border-radius: 5px;
+	text-align: left;
+	display: none;
+}
+.barNotification h4{
+	text-decoration: underline;
+	text-align: center;
+}
+.barNotification .ulNotification{
+	padding-top: 5px;
+}
+
+.notifi {
+	padding: 13px 0;
+	border-bottom: 1px solid #afafaf;
+}
+.btn-close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+	cursor: pointer;;
+	
+}
+.dark{
+	color:#000;
+	font-size:1.3em;
+}

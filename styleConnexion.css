@@ -1,0 +1,92 @@
+body {
+	background-image: url('BG.png');
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: Arial, sans-serif;
+
+}
+.titre{
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.page h1{
+	font-weight: bold;
+	margin: 10%;
+}
+.grand-titre{
+	font-size: 60px;
+}
+.page{
+	width: 70%;
+	float: right;
+}
+.page form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 60px;
+	height: 100%;
+	text-align: center;
+}
+.formStyle{
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+}
+.boutton {
+	border-radius: 50px;
+	padding: 5px 20px 5px 20px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border: 1px solid #015651;
+	background-color: #015651;
+	color: white;
+	width: 100%;
+}
+.boutton:hover{
+	color: #015651;
+	background-color:  #b4f5f1;
+	border:2px solid #015651;
+}
+.bouttonConnexion{
+	border: 1px solid #015651;
+	background-color: #015651;
+	color: white;
+}
+.bouttonInscription{
+	border: 1px solid #015651;
+	background-color: white;
+	color:#015651;
+}
+.bouttonConnexion:hover{
+	color: white;
+	border: 2px solid #015651;
+	background-color: #002f2c;
+}
+.bouttonInscription:hover{
+	border: 2px solid #015651;
+	background-color: #b8f4f0;
+}
+.page{
+	margin-bottom: 50px;
+}
+footer {
+    background-color: #b8f4f0;
+    color: #002f2c;
+    font-size: 14px;
+    padding: 20px;
+    margin-top: 50px;
+    width: 100%;
+    height: 1%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+}
